@@ -28,11 +28,3 @@ describe("unsafe_from_exception and unsafe_to_exception", () => {
     ).to_be(stack_trace(foobar));
   });
 });
-
-/*
-Js.log(Js.Exn.stack(foobar) |> Js.Option.getWithDefault(""));
-Js.Re.fromString("Error: foobar\n    at make \([^:]+:\d+:\d+\)");
-*/
-/*
-/Error: foobar\n    at make \([^:]+:\d+:\d+\)/
-*/
