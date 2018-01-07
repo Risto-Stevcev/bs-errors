@@ -1,6 +1,13 @@
 {
   "name": "bs-errors",
   "version": "0.1.0",
+  "description": "Utilities for working with errors in bucklescript",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Risto-Stevcev/bs-errors.git"
+  },
+  "homepage": "https://github.com/Risto-Stevcev/bs-errors",
+  "bugs": "https://github.com/Risto-Stevcev/bs-errors/issues",
   "scripts": {
     "clean": "bsb -clean-world",
     "build": "bsb -make-world",
@@ -12,8 +19,8 @@
     "BuckleScript",
     "reason"
   ],
-  "author": "",
-  "license": "MIT",
+  "author": "Risto-Stevcev",
+  "license": "BSD-3-Clause",
   "devDependencies": {
     "bs-platform": "^2.1.0"
   },
