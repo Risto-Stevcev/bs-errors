@@ -24,7 +24,7 @@ describe("unsafe_from_exception and unsafe_to_exception", () => {
 
     expect(Js.Re.test(stack_trace(foobar), expected_stack_trace)).to_be(true);
     expect(
-      foobar |> Error.unsaafe_to_exception |> Error.unsafe_from_exception |> stack_trace
+      foobar |> Error.unsafe_to_exception |> Error.unsafe_from_exception |> stack_trace
     ).to_be(stack_trace(foobar));
   });
 });
