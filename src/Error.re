@@ -10,7 +10,7 @@ let unsafe_from_exception : exn => Js.Exn.t = exception_ =>
     | _ => raise(Not_found)
     };
 
-let unsaafe_to_exception : Js.Exn.t => exn = error =>
+let unsafe_to_exception : Js.Exn.t => exn = error =>
   try ({
     throw(error);
     Not_found;
