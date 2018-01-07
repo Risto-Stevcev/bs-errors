@@ -1,0 +1,23 @@
+{
+  "name": "bs-errors",
+  "version": "0.1.0",
+  "refmt": 3,
+  "namespace": true,
+  "warnings": { "number": "-102", "error": "+8+27" },
+  "sources": [{
+    "dir": "src",
+    "files": ["Error.re"]
+  }, {
+    "dir": "test",
+    "files": ["Test_Error.re"],
+    "type": "dev"
+  }],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": false
+  },
+  "suffix": ".bs.js",
+  "bs-dev-dependencies": [
+    "bs-mochajs"
+  ]
+}
