@@ -22,9 +22,9 @@
   "author": "Risto-Stevcev",
   "license": "BSD-3-Clause",
   "devDependencies": {
+    "bs-chai": "^0.2.0",
+    "bs-mocha": "^0.2.0",
     "bs-platform": "^2.1.0"
   },
-  "dependencies": {
-    "bs-mochajs": "^0.3.0"
-  }
+  "dependencies": {}
 }
