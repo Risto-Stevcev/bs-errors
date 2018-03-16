@@ -1,6 +1,6 @@
 {
   "name": "bs-errors",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Utilities for working with errors in bucklescript",
   "repository": {
     "type": "git",
@@ -22,9 +22,9 @@
   "author": "Risto-Stevcev",
   "license": "BSD-3-Clause",
   "devDependencies": {
-    "bs-chai": "^0.2.0",
-    "bs-mocha": "^0.2.0",
-    "bs-platform": "^2.1.0"
+    "bs-chai": "^0.3.0",
+    "bs-mocha": "^0.3.0",
+    "bs-platform": "^2.2.2"
   },
   "dependencies": {}
 }
